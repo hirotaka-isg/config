@@ -1,0 +1,17 @@
+windows起動して初めて設定すること
+
+■サクラエディタ
+
+
+■CubePDF
+　PDFマージソフト
+
+■VSC
+
+■FFFTP
+
+■Teratarm
+
+
+
+

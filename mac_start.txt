@@ -1,0 +1,175 @@
+Mac起動して初めて設定すること
+
+■ソフトウェアアップデート
+	?(appleマーク) -> このmacについて -> ソフトウェアアップデート
+
+■OSアップデート
+	app store -> OSなどアップデートできるやつは一通り
+
+■ファイアウォールON
+	設定 -> セキュリティ -> ファイアウォールON
+
+■パスワード要求
+	設定 -> セキュリティとプライバシー -> 一般 -> スリープとスクリーンセーバーの解除にパスワードを要求：すぐに
+
+■システム環境設定（自分好みの使いやすい設定に）
+	コンピューター名変更： 共有 -> コンピューター名
+
+設定 -> キーボード -> ショートカットキー Splotlightの起動と入力ソースの切り替えのキーショートカットを入れ替える（昔からの慣れ）
+
+■[caps lock]キーを別のキーに割り当てる
+	システム環境設定 -> キーボード -> 修飾キー -> caps lockをcontrolに変更
+
+■バッテリー残量%表示
+	バッテリークリック
+
+■finder隠しファイル見える化
+	iTerm or terminal
+		<隠しファイルの表示>
+		defaults write com.apple.finder AppleShowAllFiles -boolean true
+		※非表示は上記コマンドの[ture] -> [false]に変えて実行		
+
+		<Finderの強制終了　->　自動的に再起動>
+		killAll Finder
+
+■finderパス見える化
+	defaults write com.apple.finder _FXShowPosixPathInTitle -boolean true
+
+■finder拡張子見える化
+	finder -> 環境設定 -> -詳細 -> 「すべてのファイル名拡張子を表示」にチェックをいれる
+
+■finder見やすさ
+	表示 -> 表示オプションを表示 -> 表示順序の項目を「グリッドに沿う」
+
+■トラックパッド設定
+	システム環境設定 → トラックパッド
+	ダブルタップの有効化や一本指タップでクリック効果などを設定
+	スピードマックス
+
+■Siri
+	command + spaceはspotlightが出るように設定。
+
+
+インストールするアプリ
+
+■google chrome
+	https://www.google.co.jp/chrome/?brand=CHBD&gclid=EAIaIQobChMI4J_Yk_K93AIVR66WCh0PPAoSEAAYASAAEgKgpfD_BwE&gclsrc=aw.ds&dclid=CNj2wJXyvdwCFRccKgodGWQADA
+
+■google keyboardインストール
+	https://www.google.co.jp/ime/
+		キーボード設定方法
+		https://pc-karuma.net/mac-google-japanese-input/
+
+■Hyper Switch 公式サイト【windowsのような画面切り替えツール】
+		https://bahoom.com/hyperswitch
+
+■Clipy【一時保存したものを複数保有できる】
+	https://clipy-app.com/
+
+■Shiftit
+	https://github.com/fikovnik/ShiftIt/releases
+
+■QBlocker【command+Q()の実行を防ぐ】
+	https://pc-karuma.net/mac-app-qblocker/
+
+■Sublime Text
+	<インストール先>
+	https://www.sublimetext.com/
+
+	<Sublime全角の設定>
+	https://wayohoo.com/sublime-text/how-to-highlight-the-double-byte-space-for-sublime-text.html
+
+・Sublime基本設定 Sublime Text/Preferences/Settings
+	<Sublime基本設定 URL>
+	https://qiita.com/lunatea/items/7101572e159f98369bc9#color_scheme
+	
+	{
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/Color Highlighter/themes/UserMonokai.tmTheme",
+	"fold_buttons": false,
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"open_files_in_new_window": false,
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"show_definitions": false,
+	"trim_trailing_white_space_on_save": true
+	}
+・Sublime基本パッケージ command + shift + p, package install
+	Package Control
+	A File Icon
+	All Autocomplete
+	AutoFileName
+	BracketHighlighter
+	ColorHighLighter
+	Emmet
+	SynceSideBar
+	Trailing Spaces
+
+■XAMPP
+	https://www.apachefriends.org/jp/index.html
+
+■FileZilla(ﾌｧｲﾙｼﾞﾗ) (FTPクライアントソフト)
+	https://filezilla-project.org/
+
+■Sourcetree (GUI)
+	https://ja.atlassian.com/software/sourcetree
+
+■iTerm2
+	https://www.iterm2.com/
+	iTerm2のパス設定(起動時のパスを設定できる)
+
+■VirtualBox
+	https://www.virtualbox.org/
+
+■Vagrant(ベイグラント)
+	https://www.vagrantup.com/
+
+■Cyberduk(GUIのFTPツール)
+	
+
+■Vagrant Box File
+	http://nrel.github.io/vagrant-boxes/
+
+■Xcode (iOS開発エディタ)
+	https://developer.apple.com/jp/xcode/
+
+■Evernote
+	https://evernote.com/intl/jp/
+
+■slack
+	https://get.slack.help/hc/ja/articles/207677868-Mac%E7%89%88-Slack
+
+■Skype
+	https://www.skype.com/ja/
+
+■ノートPCバッテリー理想の使用方法
+	・1ヶ月に一度は充電使い切ると長持ちする。
+	(1)電源アダプタのランプがグリーンに変わるまでフル充電
+	(2)2時間はフル充電のままにする
+	(3)バッテリーがなくなり、スリープ状態になるまで使い続ける
+	(4)なくなったら5時間以上スリープ状態を保つ
+	(5)再びフル充電する
+
+google おもしろ
+Gravity(重力)
+https://mrdoob.com/projects/chromeexperiments/google-gravity/
+
+Zerg Rush(丸いのが侵略してくるから撃ち殺す)
+https://www.google.co.jp/search?q=Zerg+Rush&rlz=1C5CHFA_enJP796JP797&oq=Zerg+Rush&aqs=chrome..69i57j0l5.529j0j4&sourceid=chrome&ie=UTF-8
+
+elegoog(左右逆)
+https://www.google.co.jp/search?q=elgoog&rlz=1C5CHFA_enJP796JP797&oq=elgoog&aqs=chrome..69i57j0l5.412j0j1&sourceid=chrome&ie=UTF-8
+
+Google Underwater
+https://elgoog.im/underwater/
+
+Google sphere
+https://mrdoob.com/projects/chromeexperiments/google-sphere/
+
+askew
+https://www.google.co.jp/search?q=askew&rlz=1C5CHFA_enJP796JP797&oq=askew&aqs=chrome..69i57j0i66l2j69i58j5i66l2.231j0j4&sourceid=chrome&ie=UTF-8
+
+do a barrel roll
