@@ -1,4 +1,4 @@
-windows起動して初めて設定すること
+windowsにインストールするソフト
 
 ■サクラエディタ
 
@@ -10,8 +10,8 @@ windows起動して初めて設定すること
 
 ■FFFTP
 
-■Teratarm
+■Teraterm
 
-
+■DF
 
 

@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",       // 自動保存
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "ricty diminished",
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,     // 末尾の空白を削除
+    "files.insertFinalNewline": true,         // 最終行に空行を追加
+    "workbench.editor.enablePreview": false,  // プレビュー表示を無効
+    "editor.minimap.enabled": false,          // ミニマップを非表示
+}
