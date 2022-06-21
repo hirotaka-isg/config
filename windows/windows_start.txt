@@ -1,17 +1,17 @@
 windowsにインストールするソフト
 
-■サクラエディタ
+・サクラエディタ
 
 
-■CubePDF
+・CubePDF
 　PDFマージソフト
 
-■VSC
+・VSC
 
-■FFFTP
+・FFFTP
 
-■Teraterm
+・Teraterm
 
-■DF
+・DF
 
 
