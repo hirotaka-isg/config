@@ -1,7 +1,9 @@
 
-Chrome拡張機能
+Chrome・Edge拡張機能
 ・AwesomeScreenshot
+
 ・vimium
+ ブラウザをvimのように操作できる
 
 
 
