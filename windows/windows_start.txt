@@ -1,12 +1,9 @@
-windowsにインストールするソフト
-
+【windowsにインストールするソフト】
 ・サクラエディタ
 
+・CubePDF PDFマージソフト
 
-・CubePDF
-　PDFマージソフト
-
-・VSC
+・VSCode
 
 ・FFFTP
 
@@ -16,3 +13,5 @@ windowsにインストールするソフト
 
 ・QTTabBar
 http://qttabbar-ja.wikidot.com/
+
+・Power Toys
